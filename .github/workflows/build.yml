@@ -17,7 +17,7 @@ jobs:
   build-rust:
     strategy:
       matrix:
-        platform: [mac-latest, ubuntu-latest]
+        platform: [ubuntu-latest]
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v6
